@@ -69,7 +69,7 @@ const Pokedex = () => {
     <div className='pokedex-container' >
       
       <header className='pokedex__header'>
-        <h2 className='pokedex__header-info'><span>Bienvenido {nameMaestro},</span> aquí podras encontrar tu pokemon favorito</h2>
+        <h2 className='pokedex__header-info'><span>Welcome {nameMaestro},</span> Here you can find your favorite pokemon</h2>
         <div className='pokedex__header-body'>
           <SearchPokemon setPokeSearch={setPokeSearch} setOptionType={setOptionType}/>
           <SelectPokemon setOptionType={setOptionType} optionType={optionType} setPokeSearch={setPokeSearch}/>

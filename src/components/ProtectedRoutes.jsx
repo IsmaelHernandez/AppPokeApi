@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, Navigate } from 'react-router-dom'
 import HeaderPokedex from './HeaderPokedex'
+import Footer from './Footer'
 
 const ProtectedRoutes = ({nameMaestro}) => {
   
@@ -9,6 +10,7 @@ const ProtectedRoutes = ({nameMaestro}) => {
     return (<div className='protedted-route'>
               <HeaderPokedex/>
               <Outlet/>
+              <Footer />
             </div>
     )
   }else{    

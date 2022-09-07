@@ -12,8 +12,8 @@ const SearchPokemon = ({setPokeSearch,setOptionType}) => {
   return (
     <form className='pokedex-form' onSubmit={handleSubmit}>
         {/* <div> */}
-         <input className='pokedex-form__input' type="text" id='searchName' placeholder='Busca un pokemon' />
-         <button className='pokedex-form__btn'><i className='bx bx-search-alt'></i> buscar</button>
+         <input className='pokedex-form__input' type="text" id='searchName' placeholder='Search for a pokemon' />
+         <button className='pokedex-form__btn'><i className='bx bx-search-alt'></i> Search</button>
         {/* </div> */}
     </form>
   )

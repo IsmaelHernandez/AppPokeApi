@@ -24,8 +24,8 @@ const PokedexDetails = () => {
       <div className='detail-pokemon__header'>
         <div className={`detail-pokemon__footer-img bg-${pokeInfo?.types[0].type.name} `}></div>
         <p className='detail-pokemon__header-order'>#{pokeInfo?.order}</p>
-        <hr className='detail-pokemon__header-line' />
         <h2 className='detail-pokemon__header-title'>{pokeInfo?.name}</h2>
+        
         <ul className='detail-pokemon__header-info'>
           <li className='dp__header-info__item'>
             <h5 className='info__item-title'>Peso</h5>
@@ -59,8 +59,8 @@ const PokedexDetails = () => {
           </div>
         </div>
         <footer className='dp__footer'>
-          <hr className='dp__footer__line'/>
           <h2 className='dp__footer__title'>Stats</h2>
+          <hr className='dp__footer__line'/>
           <div className='dp__footer__stats'>
               {
                 pokeInfo?.stats.map(stat =>(

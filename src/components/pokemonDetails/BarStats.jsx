@@ -32,11 +32,9 @@ const BarStats = ({stat}) => {
 
   return (
     <div className='card__stats'>
-      <p className='card__stats__info'>{stat['base_stat']}/150</p>
-      <h3 className='card__stats__title'>{stat.stat.name}</h3>
-      <div className='stats_bar_container'>
-        <div className={`stats__bar bar__porcentaje${calcStats()}`}>{stat['base_stat']}</div>
-        {/* <div className='stats__bar bar__porcentaje10'>{stat.base_stat}</div> */}
+      <div className='card__item'>
+        <p>{stat['base_stat']}</p>
+        <h3 className='card__stats__title'>{stat.stat.name}</h3>
       </div>
     </div>
   )

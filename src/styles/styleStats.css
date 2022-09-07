@@ -1,7 +1,15 @@
 .card__stats{
     width: 100%;
-    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
   }
+
+  .card__item{
+    width: 500px;
+    
+  }
+
   .card__stats__title{
    padding:0.3em;
   }
